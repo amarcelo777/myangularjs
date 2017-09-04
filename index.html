@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myfirstapp">
   <head>
     <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
     <title>hello andy myangularjs</title>
   </head>
   <body>
-    <h1>hello there at america's tire. This is nice</h1>
+    <h1>Hello tere at america's tire. Where is my $75 rebate???</h1>
+    <div ng-controller="myfirstcontroller">
+      <!-- {{name}} -->
+      <!-- {{sayhello()}} -->
+      <input type="text" ng-model="name">
+      insde my input is: {{name}}
+    </div>
   </body>
 </html>
