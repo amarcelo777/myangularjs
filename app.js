@@ -11,4 +11,6 @@
 				$scope.name = upcase($scope.name);
 			};
 	}
+	
+	console.log(DIControllerFnc.toString());
 })();
