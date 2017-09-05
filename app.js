@@ -2,9 +2,9 @@
 	'use strict';
 	
 	angular.module('DIApp', [])
-	.controller('DIController', DIController);
+	.controller('DIController', DIControllerFnc);
 	
-	function DIController ($scope, $filter) {
+	function DIControllerFnc ($scope, $filter) {
 			$scope.name = "Andy";
 			$scope.upper = function () {
 				var upcase = $filter('uppercase');
