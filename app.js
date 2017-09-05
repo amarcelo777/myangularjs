@@ -10,7 +10,7 @@
 				var upcase = $filter('uppercase');
 				$scope.name = upcase($scope.name);
 			};
-			console.log($injector.annotate(DIController));
+			console.log($injector.annotate(DIControllerFnc));
 	}
 	
 	function annotateme(name, job, blah) {
