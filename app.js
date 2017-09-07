@@ -1,1 +1,21 @@
-!function(){"use strict";function n(o,e,t){o.name="And00y",o.upper=function(){var n=e("uppercase");o.name=n(o.name)},console.log(t.annotate(n))}angular.module("DIApp",[]).controller("DIController",["$scope","$filter",n]),console.log(n.toString())}();
+(function () {
+	'use strict';
+	
+	angular.module('DIApp', [])
+	.controller('DIController', ['$scope','$filter', DIControllerFnc]);
+	
+	function DIControllerFnc ($scope, $filter, $injector) {
+			$scope.name = "Andy1:00";
+			$scope.upper = function () {
+				var upcase = $filter('uppercase');
+				$scope.name = upcase($scope.name);
+			};
+			console.log($injector.annotate(DIControllerFnc));
+	}
+	
+	function annotateme(name, job, blah) {
+		return "Blah!";
+	}
+	
+	console.log(DIControllerFnc.toString());
+})();
