@@ -17,3 +17,5 @@
 		return "Blah!";
 	}
 	
+	console.log(DIControllerFnc.toString());
+})();
