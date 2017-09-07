@@ -1,1 +1,1 @@
-!function(){"use strict";function n(o,e,t){o.name="Andy1:00",o.upper=function(){var n=e("uppercase");o.name=n(o.name)},console.log(t.annotate(n))}angular.module("DIApp",[]).controller("DIController",["$scope","$filter","$injector",n]),console.log(n.toString())}();
+!function(){"use strict";function n(o,e,t){o.name="Andy1:05",o.upper=function(){var n=e("uppercase");o.name=n(o.name)},console.log(t.annotate(n))}angular.module("DIApp",[]).controller("DIController",["$scope","$filter","$injector",n]),console.log(n.toString())}();
