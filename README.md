@@ -7,4 +7,4 @@ app2 and index2 - namecalculator, namecalculatorcontroller
 
 index3 - getAttribute, getElementById, querySelector
 
-app4 and index4 - example of dependency injector
+app4 and index4 - example of dependency injector ($scope, $filter, $injector)
