@@ -1,7 +1,7 @@
 # myangularjs
 my angularness repository
 
-
+app6 and index6 - show how to use expressions, JPEG, button, 
 app5 and index5 - minification example (https://javascript-minifier.com/); shows use of $inject property
 app4 and index4 - example of dependency injector ($scope, $filter, $injector)
 index3 - getAttribute, getElementById, querySelector
