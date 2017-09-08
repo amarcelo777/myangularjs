@@ -6,19 +6,15 @@
 	
 	DIControllerFnc.$inject = ['$scope'];
 	
-	function DIControllerFnc ($scope) {
+	function MsgControllerFnc ($scope) {
 			$scope.name = "Andy";
-			$scope.StateOfBeing = "smile";
+			$scope.StateOfBeing = "funny";
 		
-			$scope.sayMessage = function () {
-				return
+			$scope.HappyAndy = function () {
+				$scope.StateOfBeing = "smile";
 			};
-			console.log($injector.annotate(DIControllerFnc));
+			
 	}
 	
-	function annotateme(name, job, blah) {
-		return "Blah!";
-	}
 	
-	console.log(DIControllerFnc.toString());
 })();
