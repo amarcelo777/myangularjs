@@ -19,7 +19,6 @@
 				var msg = "Andy likes to eat T4 boba drinks";
 				return msg;
 			}
-			
 			$scope.sayMessageJs = function () {
 				var msg = "Andy likes to eat T4 boba drinks";
 				var output = $filter('uppercase')(msg);
