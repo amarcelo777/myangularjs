@@ -4,9 +4,9 @@
 	angular.module('MsgApp', [])
 	.controller('MsgController', MsgControllerFnc);
 	
-	DIControllerFnc.$inject = ['$scope'];
+	DIControllerFnc.$inject = ['$scope','$filter'];
 	
-	function MsgControllerFnc ($scope) {
+	function MsgControllerFnc ($scope,'$filter') {
 			$scope.name = "Andy";
 			$scope.StateOfBeing = "funny";
 			$scope.PriceOfBoba = 5.25;
@@ -18,6 +18,11 @@
 			$scope.sayMessageHtml = function () {
 				var msg = "Andy likes to eat T4 boba drinks";
 				return msg;
+			}
+			$scope.sayMessageJs = function () {
+				var msg = "Andy likes to eat T4 boba drinks";
+				var output = $filter('uppercase')(msg);
+				return output;
 			}
 			
 	}
