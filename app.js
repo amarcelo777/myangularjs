@@ -14,7 +14,7 @@
 				$scope.StateOfBeing = "smile";
 			};
 			
-			$scope.SayMessage = function () {
+			$scope.sayMessage = function () {
 				var msg = "Andy likes to eat T4 boba drinks";
 				return msg;
 			}
