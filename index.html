@@ -9,7 +9,8 @@
   <body>
     <h1>Expressions and Interpolations</h1>
     <div ng-controller="MsgController">
-	    Original: {{ sayMessage() | uppercase }} <br>
+	    UpperCase In HTML: {{ sayMessage() | uppercase }} <br>
+	    LowerCase In HTML: {{ sayMessage() | lowercase }} <br>
 	    <button ng-click="HappyAndy()">Make Andy happy...</button>
 	    <br>
 	    <img ng-src="mypicture{{StateOfBeing}}.jpg">
