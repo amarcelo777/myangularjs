@@ -9,6 +9,7 @@
 	function MsgControllerFnc ($scope) {
 			$scope.name = "Andy";
 			$scope.StateOfBeing = "funny";
+			$scope.PriceOfBoba = 5.25;
 		
 			$scope.HappyAndy = function () {
 				$scope.StateOfBeing = "smile";
