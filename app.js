@@ -14,6 +14,11 @@
 				$scope.StateOfBeing = "smile";
 			};
 			
+			$scope.SayMessage = function () {
+				var msg = "Andy likes to eat T4 boba drinks";
+				return msg;
+			}
+			
 	}
 	
 	
