@@ -6,7 +6,7 @@
 	
 	DIControllerFnc.$inject = ['$scope','$filter'];
 	
-	function MsgControllerFnc ($scope,'$filter') {
+	function MsgControllerFnc ($scope,$filter) {
 			$scope.name = "Andy";
 			$scope.StateOfBeing = "funny";
 			$scope.PriceOfBoba = 5.25;
